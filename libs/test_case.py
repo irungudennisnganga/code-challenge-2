@@ -23,7 +23,7 @@ restaurnat2=Restaurant("Everywhere")
 review1=Review(dennis,restaurnat1, 3)
 
 # print the number of reviews a specific customer has made
-print(dennis.num_reviews)
+print(review1.all_reviews)
 
 
 # Review.customers
@@ -39,4 +39,4 @@ for review in Review.all():
 
   
 
-ipdb.set_trace()
+# ipdb.set_trace()
