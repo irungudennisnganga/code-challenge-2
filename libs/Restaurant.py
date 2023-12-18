@@ -19,7 +19,6 @@ class Restaurant:
         return list(set(review.customers() for review in self.reviews_list))
     
 
-# dennis =Restaurant('Five Star')
-    
+
     
         
