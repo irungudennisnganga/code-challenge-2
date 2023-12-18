@@ -4,8 +4,8 @@ class Restaurant:
         if type(name) == str :
             self._name = name
             self.reviews_list = []
-            Restaurant.restaurants.append(self)
-            #print(name)
+            Restaurant.restaurant.append(self)
+            
         else:
             print("Enter valid data")    
     
@@ -19,7 +19,7 @@ class Restaurant:
         return list(set(review.customers() for review in self.reviews_list))
     
 
-dennis =Restaurant('Five Star')
+# dennis =Restaurant('Five Star')
     
     
         
