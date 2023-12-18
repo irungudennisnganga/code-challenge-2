@@ -6,8 +6,6 @@ This project implements a simple restaurant review system with three main classe
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Class Descriptions](#class-descriptions)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Getting Started
